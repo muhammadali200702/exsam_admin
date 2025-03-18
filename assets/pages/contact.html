@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otziv</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/contact.css">
+</head>
+
+<body>
+
+    <ul class="sidebar">
+        <a href="../pages/single.html"><button>👨‍🏫 Учителя</button></a>
+        <a href="./sob.html"><button>📅 События</button></a>
+        <a href="./galery.html"><button>🖼️ Галерея</button></a>
+        <a href="#"><button  class="active">💬 Отзыв</button></a>
+    </ul>
+            <!-- Main content -->
+        <div class="main-content">
+            <header class="header">
+                <h1>Отзывы</h1>
+            </header>
+            <main>
+                <section class="inp">
+                    <ul class="inp_list">
+    
+                    </ul>
+                </section>
+                <section class="create_contact">
+                    <h3>Create Contact</h3>
+                    <form id="createForm">
+                        <input type="text" id="createName" placeholder="Name" required>
+                        <textarea id="createMessage" placeholder="Message" required></textarea>
+                        <div class="form_btn_wrap">
+                            <button type="submit" class="form_btn">Create</button>
+                        </div>
+                    </form>
+                </section>
+               
+                <div class="modal_update">
+                
+                    <div class="modal_content">
+                        <h3 class="modal_title">Update Contact</h3>
+                        <form id="updateForm">
+                            <input type="text" id="updateName" placeholder="Name" required>
+                            <textarea id="updateMessage" placeholder="Message" required></textarea>
+                            <div class="modal_btn_wrapp">
+                                <button type="button" class="modal_btns">Cancel</button>
+                                <button type="submit" class="modal_btns2">Update</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <p> Школа №39 </p>
+            </footer>
+        </div>
+    </div>
+    <script src="../../assets/js/contact_post.js"></script>
+    
+</body>
+
+</html>

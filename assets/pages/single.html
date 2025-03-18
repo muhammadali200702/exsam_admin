@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учителя</title>
+    <link rel="stylesheet" href="../css/singlr.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <a href="#"><button class="active">👨‍🏫 Учителя</button></a>
+            <a href="../pages/sob.html"><button>📅 События</button></a>
+            <a href="../pages/galery.html"><button>🖼️ Галерея</button></a>
+            <a href="../pages/contact.html"><button>💬 Отзыв</button></a>
+        </aside>
+
+        <main class="main-content">
+            <div class="profile">
+                <img id="imgClick" src="../images/img.jpg" alt="Фото профиля">
+                <button id="close">Выйты</button>
+                <div class="profile-info">
+                    <input id="proffil" class="hidden" type="file">
+                </div>
+            </div>
+
+            <h2>Данные учителя</h2>
+
+            <div class="input-group">
+                <input type="text" placeholder="Имя Фамилия">
+                <input type="text" placeholder="Предмет">
+            </div>
+
+            <div class="input-group">
+                <select>
+                    <option>Teacher</option>
+                    <option>Admin</option>
+                </select>
+                <input id="pdf" class="hidden" type="file" accept="application/pdf">
+                <input type="text" name="" id="pdf2">
+            </div>
+
+            <button class="add-btn">Добавить</button>
+        </main>
+    </div>
+
+    <script src="../js/single.js"></script>
+
+</body>
+
+</html>
